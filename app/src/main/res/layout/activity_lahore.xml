@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LahoreActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"  >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/lahoreIV"
+            android:src="@drawable/lahore"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Welcome to Lahore"
+            android:id="@+id/lahoreTV"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/moasqueIV"
+            android:layout_alignBottom="@id/lahoreTV"
+            android:src="@drawable/mosque"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/loginBtn"
+            android:gravity="center"
+            android:background="@drawable/ic_boaded_background"
+            android:text="Back"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="5dp"
+            android:layout_marginBottom="20dp"
+            android:layout_centerInParent="true"
+            android:onClick="MainActivity"
+            android:layout_below="@id/moasqueIV"/>
+
+    </RelativeLayout>
+
+
+</androidx.core.widget.NestedScrollView>

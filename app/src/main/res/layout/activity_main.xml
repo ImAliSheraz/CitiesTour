@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#fff">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/logoIV"
+        android:background="@drawable/pak_flag"
+        android:layout_alignParentTop="true"
+        android:layout_margin="20dp"
+        android:padding="20dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signBtnRL"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/loginBtn"
+            android:gravity="center"
+            android:background="@drawable/ic_boaded_background"
+            android:text="@string/login_here"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="5dp"
+            android:onClick="showLahoreActivity" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/signupBtn"
+            android:gravity="center"
+            android:background="@drawable/ic_boaded_background"
+            android:text="Karachi"
+            android:textColor="@color/colorPrimaryDark"
+            android:padding="5dp"
+            android:layout_toRightOf="@id/loginBtn"
+            android:layout_marginLeft="30dp"
+            android:onClick="showKarachiActivity" />
+
+    </RelativeLayout>
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/flag_wave"
+        android:src="@drawable/ic_citywave"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-410dp"/>
+
+</RelativeLayout>
