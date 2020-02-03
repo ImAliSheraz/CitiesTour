@@ -1,4 +1,4 @@
-# CitiesTour
+# Cities Tour
 A simple Android Deshboard design with scrollable screen  
 # Show Your Support
 * [Recommend Me On LinkedIn](https://www.linkedin.com/in/imalisheraz/) - I will realy Appriciate this  
